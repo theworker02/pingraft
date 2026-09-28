@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pingraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ping numeric raft values, ranges, and human-readable units.",
+  "bin": {
+    "pingraft": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pingraft.git"
+  },
+  "homepage": "https://theworker02.github.io/pingraft/",
+  "keywords": [
+    "ping",
+    "raft",
+    "number",
+    "cli",
+    "toolkit"
+  ]
+}
